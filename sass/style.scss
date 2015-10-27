@@ -8,6 +8,7 @@
 		background-image: url(#{$path}#{$filename});
 	}
 }
+
 .responsive1 {
 	@include hero('test.jpg');
 }
