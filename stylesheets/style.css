@@ -1,0 +1,27 @@
+.responsive {
+  background-image: url(../images/mob/test.jpg); }
+  @media (min-width: 480px) {
+    .responsive {
+      background-image: url(../images/test.jpg); } }
+
+.demo {
+  background-position: center;
+  background-size: cover;
+  height: 440px;
+  width: 100%;
+  border: 1px solid cyan;
+  color: #ffffff; }
+  .demo:after {
+    content: 'mobile';
+    position: absolute;
+    top: 20px;
+    right: 20px; }
+  @media (min-width: 480px) {
+    .demo {
+      height: 660px;
+      border: 1px solid magenta; }
+      .demo:after {
+        content: 'desktop';
+        position: absolute;
+        top: 20px;
+        right: 20px; } }
